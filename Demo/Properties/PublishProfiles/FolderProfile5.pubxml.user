@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\.Net</_PublishTargetUrl>
+    <History>False|2022-03-14T06:56:41.6012271Z;False|2022-03-14T08:56:29.2008050+02:00;True|2022-03-14T08:47:01.9668162+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DemoConnection">
+      <Value>Data Source=SQL5107.site4now.net%3bInitial Catalog=db_a8412d_admindb%3bIntegrated Security=false%3bUser Id=db_a8412d_admindb_admin%3bPassword=2281998%40medonasr%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

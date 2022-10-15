@@ -1,0 +1,43 @@
+﻿@model Demo.BL.Models.DepratmentVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+<form asp-controller="Department" asp-action="Edit" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+
+
+    <input type="hidden" class="form-control" asp-for="Id" />
+    <br />
+
+    <label asp-for="Name">Department Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+
+
+    <label asp-for="Code">Department Code</label>
+    <input type="text" class="form-control" asp-for="Code" />
+    <span asp-validation-for="Code" class="text-danger"></span>
+
+    <br /> <br />
+
+    <center>
+        <a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back To Data</a>
+        <a asp-controller="Department" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+        <input type="submit" value="Edit" class="btn btn-success" />
+        <input type="reset" value="Cancle" class="btn btn-warning" />
+    </center>
+</form>
+
+
+@section MicrosoftValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,41 @@
+﻿@model Demo.BL.Models.MailVM
+
+@{
+    ViewData["Title"] = "Send Mail";
+}
+
+<h1>Send Mail</h1>
+
+
+<center>
+
+
+    <h3 class=" text-danger">
+        @TempData["MSG"]
+    </h3>
+
+
+</center>
+
+<form asp-controller="Mail" asp-action="SendMail" class="form-group">
+
+    <label asp-for="Title"> Title</label>
+    <input type="text" placeholder="Enter Title" asp-for="Title" class="form-control">
+    <span asp-validation-for="Title" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Message"> Message</label>
+    <textarea rows="4" placeholder="Enter Message" asp-for="Message" class="form-control">  </textarea>
+    <span asp-validation-for="Message" class="text-danger"></span>
+    <br />
+    <br />
+    <center>
+        <input type="submit" value="Send" class="btn btn-primary">
+    </center>
+
+</form>
+
+@section MicrosoftValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

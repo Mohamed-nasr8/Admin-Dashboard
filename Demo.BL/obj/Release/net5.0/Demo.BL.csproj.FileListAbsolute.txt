@@ -1,0 +1,15 @@
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\Demo.BL.deps.json
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\Demo.BL.dll
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\ref\Demo.BL.dll
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\Demo.BL.pdb
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\Demo.DAL.dll
+D:\.Net\Demo\Demo.BL\bin\Release\net5.0\Demo.DAL.pdb
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.csproj.AssemblyReference.cache
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.AssemblyInfoInputs.cache
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.AssemblyInfo.cs
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.csproj.CoreCompileInputs.cache
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.csproj.CopyComplete
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.dll
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\ref\Demo.BL.dll
+D:\.Net\Demo\Demo.BL\obj\Release\net5.0\Demo.BL.pdb
