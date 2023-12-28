@@ -11,6 +11,5 @@
 * Applied Microsoft Identity (Authentication & Authorization)
 * Hosting and Deploy with ASP Smarter.
 ### Demo: https://www.linkedin.com/feed/update/urn:li:activity:6987164815102226432/
-### Source Code: https://github.com/Mohamed-nasr8/Admin-Dashboard
 
 
