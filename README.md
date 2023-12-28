@@ -1,6 +1,6 @@
 # Admin-Dashboard
 ## ASP.NET Core MVC Project
-### POC PROJECT (PROOFE OF CONCEPT)
+### POC PROJECT (PROOF OF CONCEPT)
 ### Languages and tools: 
 * 3 Tier Architecture, MVC CRUD Operations Using EF Core
 * Web API CRUD Operations with ( Postman Test , Swagger Documentation , CORS policy ) - Core
